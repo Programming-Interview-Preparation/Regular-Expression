@@ -10,4 +10,5 @@ Regular Expression to Check
 |"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,10}$"|Minimum eight and maximum 10 characters, at least one uppercase letter, one lowercase letter, one number and one special character|
 |"^(?=.*[\p{Ll}])(?=.*[\p{Lu}])(?=.*\d)(?=.*[$@$!%*?&])[\p{Ll}\p{Lu}\d$@$!%*?&]{6,}"|Minimum 6 characters at least 1 Uppercase Alphabet, 1 Lowercase Alphabet, 1 Number and 1 Special Character|
 |"^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d!$%@#£€*?&]{8,}$"|Minimum 8 characters at least 1 Alphabet and 1 Number with Optional Special Chars|
-|||
+|Email Address|"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"|
+
